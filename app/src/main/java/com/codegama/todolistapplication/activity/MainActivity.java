@@ -40,11 +40,14 @@ public class MainActivity extends BaseActivity implements CreateTaskBottomSheetF
     ImageView noDataImage;
     @BindView(R.id.calendar)
     ImageView calendar;
+    ImageView logo;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        logo=findViewById(R.id.logo);
         ButterKnife.bind(this);
         setUpAdapter();
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);

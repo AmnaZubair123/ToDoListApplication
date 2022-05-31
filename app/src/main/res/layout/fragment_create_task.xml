@@ -38,7 +38,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            android:text="Fill the details below to add a task into your TODO"
+            android:text="Add task you want to be remembered"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:alpha="0.8"
